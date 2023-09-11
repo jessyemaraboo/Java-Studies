@@ -13,7 +13,7 @@ public class class005 {
       String word5 = "ASTRONAUT";
      
       
-      System.out.print("\n\t"+ word1 == word2 ? 1 : 0 + "\n\n");//1
+      System.out.print("\n\t"+ word1 == word2 ? 1 : 0 + "\n\n");//0
 
       String word3 = new String("Astronaut");
       System.out.print("\n\t"+ word1 == word3 ? 1 : 0 + "\n\n");//0
