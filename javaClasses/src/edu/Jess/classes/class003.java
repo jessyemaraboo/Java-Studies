@@ -30,7 +30,7 @@ public class class003 {
     /*Declaring CONSTANTS: using "final" at the beggining is MANDATORY */
     final int MY_NUMBER = 3;
 
-    System.out.print("\n" + myName + "\n\n");
+    System.out.print("\n" + "Variable name" + "\n\n");
 
      }
 }
