@@ -13,16 +13,16 @@ public class class005 {
       String word5 = "ASTRONAUT";
      
       
-      System.out.print("\n\t"+ word1 == word2 ? 1 : 0 + "\n\n");
+      System.out.print("\n\t"+ word1 == word2 ? 1 : 0 + "\n\n");//1
 
       String word3 = new String("Astronaut");
-      System.out.print("\n\t"+ word1 == word3 ? 1 : 0 + "\n\n");
+      System.out.print("\n\t"+ word1 == word3 ? 1 : 0 + "\n\n");//0
 
       String word4 = word3;
-      System.out.print("\n\t"+ (word1==word2) + "\n\n");
-      System.out.print("\n\t"+ (word2.equals(word3)) + "\n\n");
-      System.out.print("\n\t"+ (word3.equals(word4)) + "\n\n");
-      System.out.print("\n\t"+ !(word4.equals(word5)) + "\n\n");
+      System.out.print("\n\t"+ (word1==word2) + "\n\n");//true
+      System.out.print("\n\t"+ (word2.equals(word3)) + "\n\n");//true
+      System.out.print("\n\t"+ (word3.equals(word4)) + "\n\n");//true
+      System.out.print("\n\t"+ !(word4.equals(word5)) + "\n\n");//true (original: false)
   }
 
 }
