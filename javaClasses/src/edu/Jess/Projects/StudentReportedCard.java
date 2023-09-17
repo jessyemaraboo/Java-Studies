@@ -14,7 +14,15 @@ public class StudentReportedCard {
     else if (finalAvarage > avarage)
       System.out.println("\nAPPROVED WITH GLORY!\n");
     
+    
+
+
+
+
+
+
   }
+  
 
 
 
