@@ -11,10 +11,7 @@ public class Contador {
     int numero2 = getNumeros.nextInt();
     try {
       contar(numero1, numero2);
-
-
-
-
+      
     } catch (ParametrosInvalidosException e) {
       System.out.println("\nO primeiro numero deve ser sempre maior que o segndo...");
     }
